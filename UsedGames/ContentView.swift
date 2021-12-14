@@ -13,20 +13,13 @@ struct ContentView: View {
 
     var body: some View {
         List(gameStore.games) { (game) in
-            HStack {
-                VStack(alignment: .leading) {
-                    Text(game.name).bold().font(.body)
-                    Text(game.serialNumber).font(.caption).foregroundColor(Color(white: 0.65))
-                }
-                Spacer()
-                Text("$50").foregroundColor(.blue)
-            }.padding()
+            GameListItemView(game: game, numberFormatter: GameFormatter.dollarFormatter)
         }
     }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

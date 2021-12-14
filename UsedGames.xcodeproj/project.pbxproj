@@ -18,6 +18,8 @@
 		003A197C2767C12A006119F8 /* UsedGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A197B2767C12A006119F8 /* UsedGamesTests.swift */; };
 		003A19862767C12A006119F8 /* UsedGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A19852767C12A006119F8 /* UsedGamesUITests.swift */; };
 		003A19882767C12A006119F8 /* UsedGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A19872767C12A006119F8 /* UsedGamesUITestsLaunchTests.swift */; };
+		008A76EE27693ABE004C30D4 /* GameListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A76ED27693ABE004C30D4 /* GameListItemView.swift */; };
+		008A76F027693B37004C30D4 /* GameFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A76EF27693B37004C30D4 /* GameFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		003A19812767C12A006119F8 /* UsedGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsedGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003A19852767C12A006119F8 /* UsedGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedGamesUITests.swift; sourceTree = "<group>"; };
 		003A19872767C12A006119F8 /* UsedGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		008A76ED27693ABE004C30D4 /* GameListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListItemView.swift; sourceTree = "<group>"; };
+		008A76EF27693B37004C30D4 /* GameFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			children = (
 				001B4A4F2767EAFD00CAFF47 /* GameModel.swift */,
 				001B4A512767F0B800CAFF47 /* GameStore.swift */,
+				008A76ED27693ABE004C30D4 /* GameListItemView.swift */,
+				008A76EF27693B37004C30D4 /* GameFormatter.swift */,
 			);
 			path = Games;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 				001B4A522767F0B800CAFF47 /* GameStore.swift in Sources */,
 				003A19722767C12A006119F8 /* UsedGames.xcdatamodeld in Sources */,
 				003A196F2767C12A006119F8 /* Persistence.swift in Sources */,
+				008A76F027693B37004C30D4 /* GameFormatter.swift in Sources */,
 				003A19682767C129006119F8 /* ContentView.swift in Sources */,
+				008A76EE27693ABE004C30D4 /* GameListItemView.swift in Sources */,
 				003A19662767C129006119F8 /* UsedGamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
